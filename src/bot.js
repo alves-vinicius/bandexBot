@@ -1,16 +1,16 @@
 //classe principal do sistema
 //const TelegramBot = require('node-telegram-bot-api')
-const moment = require('moment')
+//const moment = require('moment')
 //const winston = require('winston')
 //const secrets = require('@cloudreach/docker-secrets')
 const cardapios = require('./cardapios')
 const mensagens = require('./mensagens')
-const notifications = require('./notifications')
+//const notifications = require('./notifications')
 
 //token é buscado via docker secrets
 //let token = secrets.bot_token
 //let bot = new TelegramBot(token, { polling: true })
-moment.locale('pt-br')
+//moment.locale('pt-br')
 
 //logging da aplicação
 //winston.exitOnError = false
