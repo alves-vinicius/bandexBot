@@ -3,8 +3,8 @@
 //const moment = require('moment')
 //const winston = require('winston')
 //const secrets = require('@cloudreach/docker-secrets')
-const cardapios = require('./cardapios')
-const mensagens = require('./mensagens')
+const cardapios = require('./cardapios');
+const mensagens = require('./mensagens');
 //const notifications = require('./notifications')
 
 //token é buscado via docker secrets
@@ -20,9 +20,9 @@ const mensagens = require('./mensagens')
 //SETUP INICIAL
 //console.log('Server up!')
 alert('1');
-cardapios.setupCaching()
+cardapios.setupCaching();
 alert('2');
-let menu = cardapios.fetch(splitter[2], splitter[1] == 'ALMOCO' ? 0 : 1)
+let menu = cardapios.fetch(splitter[2], splitter[1] == 'ALMOCO' ? 0 : 1);
 alert('3');
 //notifications.setup((text, id) => {
 //  bot.sendMessage(id, text, {
