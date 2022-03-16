@@ -9,7 +9,7 @@ RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 WORKDIR /opt
 
 # A wildcard is used to ensure both package.json AND package-lock.json are copied
-COPY package.json .
+COPY package*.json .
 
 # install app dependencies including 'devDependencies'
 RUN npm install
