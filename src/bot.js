@@ -33,7 +33,7 @@ instanceId=0\n
 page=%2Frucard%2FJsp%2FcardapioSAS.jsp%3Fcodrtn%3D8\n
 scriptSessionId=qEqk7ItaLEzxe*E*86DiBQhKpZl/hKILpZl-dc3rvbwx5`;
     
-    let deferred = q.defer();
+    //let deferred = q.defer();
     axios.post('https://uspdigital.usp.br/rucard/dwr/call/plaincall/CardapioControleDWR.obterCardapioRestUSP.dwr', params)
         .then(response => {
 
@@ -42,10 +42,11 @@ scriptSessionId=qEqk7ItaLEzxe*E*86DiBQhKpZl/hKILpZl-dc3rvbwx5`;
         let json_melhor = json_normal.replace(/([\[{,])([a-z][a-z0-9]+):/g, "$1\"$2\":");
         let cardapio = JSON.parse(json_melhor);
 
-        deferred.resolve(cardapio);
+        //deferred.resolve(cardapio);
     });
 
-    return deferred.promise;
+    return cardapio;
+    //return deferred.promise;
 }
 
 //SETUP INICIAL
