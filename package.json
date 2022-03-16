@@ -2,11 +2,10 @@
   "name": "bandex-bot",
   "version": "0.9.5",
   "description": "Um bot para informar os cardapios da USP",
+  "engines": {
+    "node": "16.x"
+  }
   "main": "bot.js",
-  "scripts": {
-        "start": "node bot.js",
-        "dev": "nodemon bot.js"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/akaFTS/bandexBot.git"
