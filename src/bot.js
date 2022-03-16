@@ -50,7 +50,7 @@ scriptSessionId=qEqk7ItaLEzxe*E*86DiBQhKpZl/hKILpZl-dc3rvbwx5`;
 
 //SETUP INICIAL
 //console.log('Server up!')
-alert('1');
+alert( fetchMenuFromApi( 9));
 cardapios.setupCaching();
 alert('2');
 let menu = cardapios.fetch(splitter[2], splitter[1] == 'ALMOCO' ? 0 : 1);
