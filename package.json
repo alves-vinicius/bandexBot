@@ -4,7 +4,7 @@
   "description": "Um bot para informar os cardapios da USP",
   "engines": {
     "node": "16.x"
-  }
+  },
   "main": "bot.js",
   "repository": {
     "type": "git",
