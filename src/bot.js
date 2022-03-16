@@ -6,8 +6,8 @@
 alert('A');
 const cardapios = require('./cardapios');
 alert('B');
-const mensagens = require('./mensagens');
-alert('C');
+//const mensagens = require('./mensagens');
+//alert('C');
 //const notifications = require('./notifications')
 
 //token é buscado via docker secrets
