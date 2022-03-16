@@ -4,10 +4,10 @@
 //const winston = require('winston')
 //const secrets = require('@cloudreach/docker-secrets')
 alert('A');
-const axios = require('axios');
-alert('B');
-const Q = require("q");
-alert('C');
+//const axios = require('axios');
+//alert('B');
+//const Q = require("q");
+//alert('C');
 //const notifications = require('./notifications')
 
 //token é buscado via docker secrets
