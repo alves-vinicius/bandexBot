@@ -3,8 +3,11 @@
 //const moment = require('moment')
 //const winston = require('winston')
 //const secrets = require('@cloudreach/docker-secrets')
+alert('A');
 const cardapios = require('./cardapios');
+alert('B');
 const mensagens = require('./mensagens');
+alert('C');
 //const notifications = require('./notifications')
 
 //token é buscado via docker secrets
