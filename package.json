@@ -5,7 +5,7 @@
   "engines": {
     "node": "16.x"
   },
-  "main": "src/bandeco.html",
+  "main": "app.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/akaFTS/bandexBot.git"
