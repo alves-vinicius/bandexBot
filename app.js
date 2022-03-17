@@ -1,8 +1,16 @@
-//classe principal do sistema
-//const TelegramBot = require('node-telegram-bot-api')
-//const moment = require('moment')
-//const winston = require('winston')
-//const secrets = require('@cloudreach/docker-secrets')
+var express = require('express');
+var app = express();
+
+// set the view engine to ejs
+app.set('view engine', 'ejs');
+
+// use res.render to load up an ejs view file
+
+// index page
+app.get('/', function(req, res) {
+  res.render('bandeco.html');
+});
+
 alert('A');
 const axios = require('axios');
 alert('B');
